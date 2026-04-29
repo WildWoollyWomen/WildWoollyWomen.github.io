@@ -1,0 +1,225 @@
+/* -- Mr Site Std Template -- */
+/* -- me166 Vintage Wallpaper ----*/
+
+/* ----------------------------- Template reset - */
+body{margin:0;padding:0;}div.tabatha_wrap{width:840px;margin:0 auto;}.clear{clear:both;margin:0;padding:0;}#mainheader_wrap{width:850px;height:150px;margin:0 auto;padding:0;overflow:hidden;}.tabclear{clear:both;margin:0;padding:0;height:1%;}.hidden{display:none;margin:0;padding:0;}
+
+/* ----------------------------- Typography - */
+body					{font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+p						{}
+h1						{}
+h2						{}
+h3						{}
+h4						{}
+h5						{}
+h6						{}
+
+/* ----------------------------- Template colours - */
+body, body p			{color:#a8a8a8;}
+a:link					{color:#a8a8a8; text-decoration:underline;}
+a:visited				{color:#a8a8a8; text-decoration:underline;}
+a:active				{color:#a8a8a8; text-decoration:underline;}
+a:hover					{color:#a8a8a8; text-decoration:underline;}
+#footer a:link			{color:#a8a8a8; text-decoration:underline;}
+#footer a:visited		{color:#a8a8a8; text-decoration:underline;}
+#footer a:active		{color:#a8a8a8; text-decoration:underline;}
+#footer a:hover			{color:#a8a8a8; text-decoration:underline;}
+
+/* ----------------------------- Template variants - */
+body {background:url(../images/bg1.jpg) #F9F9F9 repeat top;}
+div.tabatha_wrap{width:850px;margin:0 auto;} 
+#homepage {background: url("../userimages/experiment-smaller.jpg");}
+#mainHeader1 {height: 150px;padding: 0;margin: 0;background: url("../images/1header.png") top no-repeat; }
+
+#mainHeader2 {height: 150px;padding: 0;margin: 0;background: url("../images/2header.png") top no-repeat; }
+
+#mainHeader3 {height: 150px;padding: 0;margin: 0;background: url("../images/3header.png") top no-repeat; }
+
+#mainHeader4 {height: 150px;padding: 0;margin: 0;background: url("../images/4header.png") top no-repeat; }
+
+#mainHeader5 {height: 150px;padding: 0;margin: 0;background: url("../images/5header.png") top no-repeat; }
+
+#mainHeader6 {height: 150px;padding: 0;margin: 0;background: url("../images/6header.png") top no-repeat; }
+
+
+/* ----------------------------- Widget variants - */
+input#searchText {color:#000;}
+div#widgetdiv {margin:0px; padding:0px;}
+div.sitewidget {padding:0px; border-top:2px solid #e0e0e0;}
+div.sitewidget h4		{font-size:14px; font-weight:bold; margin:10px 0px 8px; padding:0px;}
+
+/* ----------------------------- Template Structure - */
+
+
+
+#topspace {height:10px;}
+
+/* Zero all elements */
+#columnWrapper, #navColumn, 
+#mainColumn, #synopsis, #footer {position:relative; margin:0; padding:0;}
+			
+			/* graphics */
+			#pagebottom {background:url(../images/pagebottom.png) no-repeat top; height: 17px;}
+			#footertop {height:17px; background:url(../images/footertop.png) no-repeat top;}
+			#footerbottom {height:66px; background:url(../images/footerbottom.png) no-repeat top;}
+
+#mainheader_wrap {width:850px; height:150px; margin:0 auto; padding:0; overflow:hidden;}
+#mainColumnWrapper {width:868px; margin:0 auto; position:relative;}
+#headwrap {position:relative; width:868px; height:172px; margin:0 auto; background:url(../images/header.png) no-repeat top;}
+#hs {height:10px !important;}
+#headcase {position:relative; width:850px; height:150px; margin:0 auto !important; margin-top:-10px; padding:0;}
+#pagetop {position:relative; width:868px; background:url(../images/pagetops.png); height:2px; margin:0 auto;}
+
+	#pageWrap {background:url(../images/pagerepeat.png) repeat-y top; width:868px;}		/* wrap the page */
+		#columnWrapper {width:830px; margin:0 auto 0 auto; padding-top:10px;}
+			#navColumn {float:left; width:230px;}
+
+			#mainColumn {float:right; width:580px;}
+	
+			/* expanding */
+			
+			#mainColumn div.content {padding:0 8px;}
+	
+			#synopsis {border-bottom: 1px dotted #e6e6e6; color:#a8a8a8; margin:0 0 10px 0;}
+				#synopsis div.content {padding:10px 0 20px 0px;}
+
+	
+			#footer {width:830px; text-align:right; margin:0 auto; padding-top:15px !important; padding-top:20px; font-size:10px;}
+
+
+
+
+/* ----== Standard SideBar Nav CSS ==---- */
+/*
+#navbar ul {margin:0; padding:0;}
+#navbar {width:100%;}
+#navbar li a {text-decoration: none; display: block; padding:8px 0 0 10px;}	
+#navbar li a:link, #navbar li a:visited {display: block;}
+#navbar li a span {display:block;}
+#navbar li ul li, #navbar li ul, #navbar li ul li a {border:0;}
+#navbar li ul li a span {margin-left:10px;}
+*/
+/* ----== /Standard SideBar Nav CSS ==---- */
+
+/* ----== Mr Site Template Blog Style ==---- */
+.post-title {color:#404040;}
+.post-title {border:1px dotted #a8a8a8;}
+.post {border:1px dotted #a8a8a8;}
+.post-body {border:1px dotted #a8a8a8;}
+p.post-footer {border:1px dotted #a8a8a8;}
+/* ----== /Mr Site Template Blog Style ==---- */
+
+/* ----== Forum styles ==---- */
+table.ForumTable {background:#ffffff; border-color#000;}
+div.ThreadContainer {background:#ffffff; border-color:#000;}
+div.ThreadContainer_NewTopic {border-color:#000;}
+div.FooterContainer_Inner {background:#fff;border-color:#000;}
+div.FooterContainer_Credits {border-bottom:1px solid #000;padding:5px;text-align:left;}
+div.FooterContainer_Actions {border-color:#000;}
+p.FooterCopy {text-align:center;font-size:14px;}
+body.forum p {color: #404040;}
+body.forum a {color: #a8a8a8;}
+/* ----== /Forum styles ==---- */
+
+
+/* ----== Page Expansion ==---- */
+body.expand div#mainColumn {width:830px; border:0;}
+body.expand div#navColumn {display:none;}
+body.expand div#shop {width:565px;}
+/* ----== /Page Expansion ==---- */
+
+/* ----== Site Layout ==---- */
+/* Menu Left */
+body.menuleft div#navColumn {float:left;}
+body.menuleft div#mainColumn {float:right;}
+
+/* Menu Right */
+body.menuright div#navColumn {float:right;}
+body.menuright div#mainColumn {float:left;}
+
+/* ----== /Site Layout ==---- */
+
+/* ----== Mr Site Latest Gallery ==---- */
+div.latestGallery {}
+div.latestGallery a {color:#a8a8a8;}
+/* ----== /Mr Site Latest Gallery ==---- */
+
+/* ----== Twitter ==---- */
+p.profileLink a {color: #fff;}
+ul#twitter_update_list li a {color: #a8a8a8;}
+ul#twitter_update_list li span a {color: #a8a8a8;}
+/* ----==/Twitter ==---- */
+
+/* ----== Form Creator ==---- */
+form.myform input, 
+form.myform textarea, 
+input.input_captcha {}
+	form.myform legend, 
+	form.myform label {font-weight:bold;}
+span.description {}
+input.submit_myform {}
+/* ----== /Form Creator ==---- */
+
+
+/* ----== Contemporary Layout ==---- */
+/* Side Division */
+div#shop div.float-left {float:left; width:453px; display:inline-block; position:relative;}
+div#shop div.float-right {float:right; width:100px; display:inline-block; position:relative;}
+
+/* Standard Online Shop (Contemporary) */
+div.standardCart.float-left {float:right; margin:0px 10px 10px 0px; display:inline-block; position:relative;}
+div.standardCart.float-right {float:left; width:453px; margin:0px; display:inline-block; position:relative;}
+
+div#shop_item.noimages div.standardCart.float-left {width:565px; margin:0px 0px 10px 0px; display:inline-block; position:relative;}
+
+/* Pro Online Shop (Contemporary) */
+div.proCart.float-left {float:left; width:453px; margin:0px; display:inline-block; position:relative;}
+div.proCart.float-right {float:right; margin:0px 0px 10px 10px; display:inline-block; position:relative;}
+/* ----== /Contemporary Layout ==---- */
+
+
+/* ----==  User styles ==---- */
+#shop {border-bottom:1px solid #d2d2d2;}
+#shop .float-left .item_options .quantity select,
+#shop .float-left .item_options .options select,
+#shop .float-left .item_options .colour input {border-color:#d2d2d2;}
+#shop .float-left .item_options {background:#f6f6f6; border-color:#d2d2d2; color:#202020;}
+
+/* ----== JSON Guestbook ==---- */	
+#gbook_jdiv {margin:0; padding:0;}
+/* ----== end of JSON Guestbook ==---- */
+/* Colour 1 */ #tcol1 {background-color:#e0e0e0; color:#686868;}
+/* Colour 2 */ #tcol2 {background:#f9f9f9; border-color:#e0e0e0; color:#686868;}
+/* ----== Mr Site Guestbook style ==---- */
+
+div#shop {border-bottom:0px;}
+
+/* ----== Winter Release Widgets ==---- */	
+
+/* ----== Mailing List ==---- */	
+input.mailinglistemail{border:1px #eaeaea solid; background:#fff; color:#000;}
+input.mailinglistButton{background:#eaeaea; color:#333;}
+input.mailinglistButton.hover_button{background:#888;}
+/* ----== Mailing List ==---- */	
+
+/* ----== Mini Cart ==---- */	
+a.minicart_checkoutbutton {text-decoration:none;background:#eaeaea; color:#333; border:0px;}
+a.minicart_checkoutbutton:hover {background:#888;}
+a.minicart_checkoutbutton {height:19px; overflow:hidden; padding:17px 40px 15px 20px; text-shadow:#ffffff 0px 1px 0px;background:url(../images/proceed_to_checkout.gif) transparent no-repeat top right; color:#202020;display:block; position:relative; cursor:pointer; float:right; clear:right; text-decoration:none; font-size:12px; line-height:15px; letter-spacing:-0.1pt; word-spacing:0pt; font-style:normal; text-transform:none; text-decoration:none;}
+a.minicart_checkoutbutton:hover {background:url(../images/proceed_to_checkout.gif) transparent no-repeat bottom right; color:#202020;}
+/* ----== Mini Cart ==---- */
+
+/* ----== Google/Froogle Search ==---- */	
+input#searchText.GoogleSearch {border:1px #eaeaea solid; background:#fff ;}
+input#searchText.FroogleSearch {border:1px #eaeaea solid; background:#fff url(../../mrsite.co.uk/web_assets/images/icons/search/froogle_custom_search.jpg) no-repeat 0 0;}
+
+input.searchResultsButton {background:#eaeaea; color:#333;}
+input.searchResultsButton.hover_button {background:#888;}
+
+/* ----== Google/Froogle Search ==---- */
+
+/* ----== Bug Fixes ==---- */
+
+.galleryborder{
+	border: 0px !important;
+}#navColumn {float: left;}#mainColumn {float:right;}
