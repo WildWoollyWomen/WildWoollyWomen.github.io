@@ -2,75 +2,132 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wild Woolly Women | Friendly Knitting & Spinning Group</title>
-  <meta name="description" content="The Wild Woolly Women knit, spin, weave and felt in Elkstone, Stroud. Join us for fun, friendship and homemade cake every Wednesday.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wild Woolly Women | Knitting, Spinning & Social Crafting</title>
+  <meta name="description" content="Join the Wild Woolly Women for knitting, spinning, weaving and felting in Elkstone, Stroud. Friendly, relaxed and open to all skill levels.">
+  
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #fdfdf9;
-      margin: 0;
-      padding: 0;
-      color: #333;
-      line-height: 1.6;
+    :root {
+      --bg: #fdfdf9;
+      --text: #333;
+      --accent: #5a3e36;
+      --max-width: 820px;
+      --radius: 8px;
     }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
     header img {
       width: 100%;
       height: auto;
-      object-fit: cover;
       display: block;
-      max-height: clamp(220px, 25vh, 375px);
+      max-height: 320px;
+      object-fit: cover;
     }
-    @media (min-width: 992px) {
+
+    @media (min-width: 900px) {
       header img {
+        max-height: 420px;
         object-fit: contain;
-        max-height: 400px;
-        margin: 0 auto;
-        background-color: #fdfdf9;
+        background: var(--bg);
       }
     }
+
     main {
-      max-width: 800px;
+      max-width: var(--max-width);
       margin: 2rem auto;
-      padding: 0 1rem;
-      text-align: center;
+      padding: 0 1.25rem;
     }
+
     h1 {
       text-align: center;
-      color: #5a3e36;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      font-size: 1.9rem;
     }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
     ul {
-      list-style-type: disc;
-      padding-left: 1.5rem;
-      text-align: left;
-      display: inline-block;
+      padding-left: 1.2rem;
+      margin: 1.5rem auto;
+      max-width: 600px;
     }
+
+    li {
+      margin-bottom: 0.75rem;
+      font-size: 1.05rem;
+    }
+
     a {
-      color: #5a3e36;
+      color: var(--accent);
       text-decoration: underline;
     }
+
     .contact {
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       text-align: center;
       font-weight: bold;
-      font-size: 1.1rem;
+      font-size: 1.15rem;
+    }
+
+    .info {
+      text-align: center;
+    }
+
+    .info strong {
+      color: var(--accent);
     }
   </style>
 </head>
+
 <body>
   <header>
-    <img src="banner.png" alt="Wild Woolly Women Knitting and Spinning Club Banner">
+    <img src="banner.png" alt="Wild Woolly Women Knitting and Spinning Group Banner">
   </header>
+
   <main>
+    <h1>Welcome to the Wild Woolly Women</h1>
+
     <div class="info">
-      <p><strong>Welcome to our Social <i>Knit</i>-working Group</strong></p>
-      <p><strong>The Wild Woolly Women</strong> have been meeting since April 2009 to share their enthusiasm for all things woolly. We are not just a knitting group! Many of us are also keen spinners and proficient weavers and felters. You are invited to join us, have some fun, learn a new skill or brush up on some old ones – all levels are welcome.</p>
+      <p><strong>A friendly social <i>knit</i>-working group</strong></p>
+
+      <p>
+        We’ve been meeting since <strong>April 2009</strong> to share our love of all things woolly.  
+        We’re not just knitters — many of us spin, weave and felt too.  
+        Whether you’re a complete beginner or a seasoned maker, you’re warmly invited to join us for fun, friendship and (of course) homemade cake.
+      </p>
 
       <ul>
-        <li>We meet the <strong>1st Wednesday</strong> (10.00–1.00pm) to knit and spin, chat and eat lots of homemade cake at <a href="https://maps.app.goo.gl/xQR8PNg5BJqb7p5k7"><strong>Elkstone Village Hall</strong></a></li>
-        <li><strong>2nd Wednesday</strong> (10.00–1.00pm) at <a href="https://maps.app.goo.gl/VCR9dd55qKJLc2vs6?g_st=iw"><strong>Jolly Nice</strong></a>.</li>
-        <li><strong>3rd Wednesday</strong> (10.00–1.00pm) at <a href="https://maps.app.goo.gl/mb2T4vW82y836KHV6?g_st=iw"><strong>Stroud Brewery</strong></a>.</li>
-        <li><strong>4th Wednesday</strong> (10.00–1.00pm) at <a href="https://goo.gl/maps/SiZV6HXs2GmsBwpj6" target="_blank"><strong>Organic Farm Shop</strong></a>.</li>
+        <li>
+          <strong>1st Wednesday</strong> (10.00–1.00pm) at 
+          <a href="https://maps.app.goo.gl/xQR8PNg5BJqb7p5k7"><strong>Elkstone Village Hall</strong></a>
+        </li>
+
+        <li>
+          <strong>2nd Wednesday</strong> (10.00–1.00pm) at 
+          <a href="https://maps.app.goo.gl/VCR9dd55qKJLc2vs6?g_st=iw"><strong>Jolly Nice</strong></a>
+        </li>
+
+        <li>
+          <strong>3rd Wednesday</strong> (10.00–1.00pm) at 
+          <a href="https://maps.app.goo.gl/mb2T4vW82y836KHV6?g_st=iw"><strong>Stroud Brewery</strong></a>
+        </li>
+
+        <li>
+          <strong>4th Wednesday</strong> (10.00–1.00pm) at 
+          <a href="https://goo.gl/maps/SiZV6HXs2GmsBwpj6"><strong>Organic Farm Shop</strong></a>
+        </li>
       </ul>
     </div>
 
